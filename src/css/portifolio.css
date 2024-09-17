@@ -1,0 +1,98 @@
+.portifolio{
+    padding-top: 100px;
+}
+
+.cards_content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.card {
+    height: 320px;
+    background-color: red;
+    border-radius: 15px;
+    box-shadow: 0px 1px 6px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 220px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+
+.card_name {
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 8px 8px 0 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    width: 160px;
+}
+
+.card_1 {
+    background-image: url(../images/mockup-panfletos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_2 {
+    background-image: url(../images/socialmedia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_3 {
+    background-image: url(../images/logobranding1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_4 {
+    background-image: url(../images/card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_5 {
+    background-image: url(../images/logobranding2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_6 {
+    background-image: url(../images/card2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_7 {
+    background-image: url(../images/impressos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_8 {
+    background-image: url(../images/mockup-logo-fachada.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

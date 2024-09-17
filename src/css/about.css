@@ -1,0 +1,125 @@
+
+.about {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: auto 0;
+    width: 100%;
+}
+
+.circle {
+    border-radius: 100%;
+    border: solid 3px var(--secondary);
+    height: 80%;
+    position: absolute;
+    width: 80%;
+}
+
+.circle_photo {
+    background-image: url(../images/photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    border: solid 6px var(--primary);
+    height: 80%;
+    position: absolute;
+    width: 80%;
+}
+
+.photo {
+    height: 350px;
+    position: relative;
+    width: 350px;
+}
+
+.circle_one {
+    left: 0;
+    top: 0;
+}
+
+.circle_two {
+    bottom: 0;
+    right: 0;
+}
+
+.circle_three {
+    left: 32px;
+    top: 30px;
+}
+
+.circle_one:hover {
+    right: 0;
+}
+
+.title {
+    font-size: 1.71rem;
+    font-weight: 400;
+}
+
+.profession {
+    color: var(--primary);
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    position: relative;
+    width: 500px;
+}
+
+.bottons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_text {
+    text-align: justify;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+.icons_redes {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.trace {
+    background-color: var(--primary);
+    border-radius: 30px;
+    height: 8px;
+    width: 120px;
+}
+
+.content_trace{
+    height: 8px;
+}
+
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 920px) {
+    .about{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_content{
+        width: 90%;
+    }
+
+    .photo{
+        height: 250px;
+        width: 250px;
+    }
+}

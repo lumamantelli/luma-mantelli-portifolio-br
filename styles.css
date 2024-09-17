@@ -1,0 +1,67 @@
+:root {
+    --primary: #310082;
+    --secondary: #D2B6FF;
+    --preto: #000000;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 97vh;
+    gap: 118px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    margin-top: 60px;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: solid 2px var(--primary);
+}
+
+li.active a {
+    color: var(--secondary);
+}
+
+.content { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 300px;
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 920px) {
+    .content{
+        gap: 10px;
+        margin-top: 110px;
+    }
+}

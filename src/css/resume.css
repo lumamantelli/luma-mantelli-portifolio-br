@@ -1,0 +1,171 @@
+.resume {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.resume_content {
+  align-items: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(220deg, rgba(0,0,0,1) 0%, rgba(49,0,130,1) 75%);
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 30px;
+  width: 85%;
+}
+
+.line{
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 3px;
+}
+
+.skill {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.skill_name {
+  color: white;
+  margin: 0;
+}
+  
+
+.data_title {
+    color: white;
+}
+
+.data-text {
+  color: white;
+  line-height: 1.5em;
+}
+
+.data-text-experience {
+  color: white;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  margin: 0px;
+}
+
+.title-experience {
+  color: white;
+  font-size: 1.2em;
+
+}
+
+.text-experience{
+  color: white;
+  font-size: 0.9rem;
+  text-align: justify;
+  width: 454px;
+}
+
+.progress_bar {
+  background-color: #f0f0f0; /* Cor de fundo da barra */
+  border-radius: 10px; /* Arredonda as bordas */
+  height: 10px;
+  width: 150px;
+  }
+  
+  .progress_bar_fill_1 {
+    background-color: #ff8c00; /* Cor de preenchimento da barra */
+    border-radius: 10px; /* Arredonda as bordas */
+    height: 100%;
+    width: 50%; /* Define a largura da barra preenchida */
+  }
+  .progress_bar_fill_2 {
+    background-color: #ff8c00; /* Cor de preenchimento da barra */
+    border-radius: 10px; /* Arredonda as bordas */
+    height: 100%;
+    width: 80%; /* Define a largura da barra preenchida */
+  }
+  .progress_bar_fill_3 {
+    background-color: #ff8c00; /* Cor de preenchimento da barra */
+    border-radius: 10px; /* Arredonda as bordas */
+    height: 100%;
+    width: 50%; /* Define a largura da barra preenchida */
+  }
+  .progress_bar_fill_4 {
+    background-color: #ff8c00; /* Cor de preenchimento da barra */
+    border-radius: 10px; /* Arredonda as bordas */
+    height: 100%;
+    width: 70%; /* Define a largura da barra preenchida */
+  }
+
+.experience{
+  display: flex;
+  gap: 20px;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title_mobile{
+  display: none;
+}
+
+.skills_items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .resume_content{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .line{
+    display: none;
+  }
+
+  .title_mobile{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .data{
+    align-items: center;
+  }
+
+  .experience{
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-resume{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-experience{
+    width: 80%;
+  }
+
+  .data-experience{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
